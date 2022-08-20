@@ -1,0 +1,20 @@
+{
+  "name": "@samhwang/test-ts-node-swc",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhwang/test-ts-node-swc.git"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.5.1",
+    "@swc/core": "^1.2.241",
+    "@swc/helpers": "^0.4.7",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.7.8",
+    "regenerator-runtime": "^0.13.9",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.7.4"
+  }
+}
