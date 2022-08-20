@@ -1,7 +1,10 @@
 {
   "name": "@samhwang/test-ts-node-swc",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "run-swc": "node -r @swc-node/register bin/index.ts",
+    "run-tsnode": "ts-node bin/index.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samhwang/test-ts-node-swc.git"

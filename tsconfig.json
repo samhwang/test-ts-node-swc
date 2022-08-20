@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@app/*": ["./src/app/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["./src/**/*.ts", "./bin/**/*.ts"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "swc": true
+  }
+}
